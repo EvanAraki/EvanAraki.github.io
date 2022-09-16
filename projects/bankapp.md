@@ -19,32 +19,7 @@ This program is a simple bank record database that uses a linked list to store u
 <hr>
 
 <pre>
-Please select a menu option
-add: add a new record in the database
-printall: print all records in the database
-find: find record(s) with a specified account #
-delete: delete existing record(s) from the database using the account # as a key
-quit: quit the program
 
-add
-
-Enter the account number: 12345
-
-Enter name for acount: Evan Araki
-
-Enter address(end input with a semicolon):
-44-404 Street
-Unit 90
-Manoa, Hawaii;
-
-Record added
-
-Please select a menu option
-add: add a new record in the database
-printall: print all records in the database
-find: find record(s) with a specified account #
-delete: delete existing record(s) from the database using the account # as a key
-quit: quit the program
 Please select a menu option
 add: add a new record in the database
 printall: print all records in the database
