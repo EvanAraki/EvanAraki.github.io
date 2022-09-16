@@ -26,3 +26,5 @@ This program is a simple web crawler that takes a webpage URL and an interger fo
 ## Here's what it looks like when you visit the url scanned by the Webcrawler, it is a real link to a real page 
 
 <img class="img-fluid" src="../img/privacysc.png">
+
+Source: <a href="https://github.com/EvanAraki/Webcrawler">EvanAraki/Webcrawler</a>
