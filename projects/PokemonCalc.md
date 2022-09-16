@@ -19,3 +19,6 @@ This is a rudementary damage calculator used to simulate an attack during a batt
 ## The Formula used to calculate damage:
 
 <img class="img-fluid" src="../img/formula.png">
+
+
+Source: <a href="https://github.com/EvanAraki/Pokemon-Damage-Calculator-">EvanAraki/Pokemon-Damage-Calculator-</a>
