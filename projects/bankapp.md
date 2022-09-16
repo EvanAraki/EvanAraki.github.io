@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/vacay/bank.jpg
+image: img/bank.jpg
 title: "Bank Software"
 date: 2022
 published: true
