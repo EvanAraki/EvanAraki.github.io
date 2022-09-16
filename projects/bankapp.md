@@ -18,6 +18,7 @@ This program is a simple bank record database that uses a linked list to store u
 
 <hr>
 
+<pre>
 Please select a menu option
 add: add a new record in the database
 printall: print all records in the database
