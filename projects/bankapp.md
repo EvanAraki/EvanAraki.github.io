@@ -12,7 +12,7 @@ labels:
 summary: "A simulated bank record database project for ICS 212."
 ---
 
-This program is a simple bank record database that uses a linked list to store user profiles. This software combines a number of topics such as user I/O, data structures, error handling, modular programming and makefile. The application promts the user with a list of menu options, allowing them to do things like add and delete records from the database. The front-end and back-end are completely independent and modular in this programming, meaning that the database functions that run in the back-end can be easily linked to a more sophisicated, non console based user interface program. The program also contains a number of minor details to increase real wold usability, such as accepting multi line input for addresses and handling accounts with duplicate identifier numbers.
+This program is a simple bank record database that uses a linked list to store user profiles. This software combines a number of topics such as user I/O, data structures, error handling, modular programming and makefile. The application prompts the user with a list of menu options, allowing them to do things like add and delete records from the database. The front-end and back-end are completely independent and modular in this application, meaning that the database functions that run in the back-end can be easily linked to a more sophisicated, non console based user interface program. The program also contains a number of minor details to increase real wold usability, such as accepting multi line input for addresses and handling accounts with duplicate identifier numbers.
 
 ## Here is a sample of the program running.
 
