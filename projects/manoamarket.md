@@ -26,6 +26,3 @@ In this project I gained experience with full-stack web application design and a
 
 Agile Project Management was our team's approach to developing this website. We broke up our project into smaller projects(milestones), it allowed the team to focus on each feature of the site without getting too overwhelmed. We also had fellow students at UH test out our project and provide feedback whether it be positive or negative to determine whether or not properties needed further improvements.
 
-If you are interested in viewing our live wesbite you can do so by clicking on this <a href="http://137.184.236.187/">link</a>.
-
-
