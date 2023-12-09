@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Bank Software | Evan Araki | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://avatars.githubusercontent.com/u/112609431?s=400&u=c857dc81372fcab861ca1b418a91172bc6980bf7&v=4">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Evan Araki | Professional Portfolio">
+    <meta property="og:url" content="https://EvanAraki.github.io/projects/bankapp.html">
+    <meta property="og:title" content="Bank Software | Evan Araki | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://avatars.githubusercontent.com/u/112609431?s=400&u=c857dc81372fcab861ca1b418a91172bc6980bf7&v=4">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/default.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Bank Software | Evan Araki | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Evan Araki</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Bank Software</h1>
+ <p>This program is a simple bank record database that uses a linked list to store user profiles. This software combines a number of topics such as user I/O, data structures, error handling, modular programming and makefile. The application prompts the user with a list of menu options, allowing them to do things like add and delete records from the database. The front-end and back-end are completely independent and modular in this application, meaning that the database functions that run in the back-end can be easily linked to a more sophisicated, non console based user interface program. The program also contains a number of minor details to increase real wold usability, such as accepting multi line input for addresses and handling accounts with duplicate identifier numbers.</p>
+
+<h2 id="here-is-a-sample-of-the-program-running">Here is a sample of the program running.</h2>
+
+<hr />
+
+<pre>
+
+Please select a menu option
+add: add a new record in the database
+printall: print all records in the database
+find: find record(s) with a specified account #
+delete: delete existing record(s) from the database using the account # as a key
+quit: quit the program
+
+add
+
+Enter the account number: 12345
+
+Enter name for acount: Evan Araki
+
+Enter address(end input with a semicolon):
+44-404 Street
+Unit 90
+Manoa, Hawaii;
+
+Record added
+
+Please select a menu option
+add: add a new record in the database
+printall: print all records in the database
+find: find record(s) with a specified account #
+delete: delete existing record(s) from the database using the account # as a key
+quit: quit the program
+
+printall
+
+**ALL RECORDS**
+***************************************************************
+12345
+Evan Araki
+44-404 Street
+Unit 90
+Manoa, Hawaii
+***************************************************************
+
+
+Please select a menu option
+add: add a new record in the database
+printall: print all records in the database
+find: find record(s) with a specified account #
+delete: delete existing record(s) from the database using the account # as a key
+quit: quit the program
+
+delete
+
+Enter the account number: 12345
+
+Record deleted
+
+Please select a menu option
+add: add a new record in the database
+printall: print all records in the database
+find: find record(s) with a specified account #
+delete: delete existing record(s) from the database using the account # as a key
+quit: quit the program
+
+find
+
+Enter the account number: 12345
+
+The record with that account number could not be found
+
+Please select a menu option
+add: add a new record in the database
+printall: print all records in the database
+find: find record(s) with a specified account #
+delete: delete existing record(s) from the database using the account # as a key
+quit: quit the program
+
+printall
+
+**ALL RECORDS**
+<hr />
+
+Source: <a href="https://github.com/EvanAraki/bankapp">EvanAraki/bankapp</a>
+
+</pre>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
